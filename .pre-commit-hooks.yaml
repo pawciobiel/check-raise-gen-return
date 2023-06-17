@@ -1,0 +1,7 @@
+-   id: check-raise-gen-return
+    name: check for raise gen.Return
+    description: Check if code contains raise gen.Return or similar
+    entry: check-raise-gen-return
+    stages: [commit, manual]
+    language: python
+    types: [python]
